@@ -88,10 +88,8 @@ function factorial(num) {
   for (let i = 1; i <= num; i++) {
     result *= i;
   }
-
   return result;
 }
-
 const input9 = prompt("Problem 9 : Enter a number to find factorial");
 const number = Number(input9);
 
@@ -102,7 +100,7 @@ if (input9 === null || isNaN(number) || number < 0) {
 }
 
 // Problem 10
-let input = parseInt(prompt("Enter a number to find the pingpong/pong/ping"));
+let input = parseInt(prompt("Problem 10 : Enter a number to find the pingpong/pong/ping"));
 pingPong(input);
 function pingPong(num1) {
   let result = "";
